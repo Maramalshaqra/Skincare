@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fdee;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8fdee !important;
+  padding: 15px 0;
+  z-index: 1030;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  margin: 0 15px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #77a464;
+}
+.icon-link img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+}
+.icon-link img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+/* Hero Section */
+.subheading {
+  color: #8AC027;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #333;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.explore-btn {
+  display: inline-block;
+  background-color: #8AC027;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #79a220;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+
+
+  
+  
+
+/* Green Box Section */
+
+.green-box {
+    background-color: #8AC027;
+    min-height: 350px;
+    padding-top: 20px;
+    margin-top: 180px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;  
+    margin-bottom: 50px;
+  }
+  .logo-container img {
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .logo-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .white-box {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: -220px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #e0e0e0;  
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+  }
+  
+  
+  .feature-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .feature-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .feature-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  
+  @media (max-width: 576px) {
+    .logo-container img {
+      max-height: 50px;
+    }
+  
+    .feature-title {
+      font-size: 16px;
+    }
+  
+    .feature-item img {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .feature-item {
+      padding: 15px;
+    }
+  }
+  
+
+#shopping-section {
+    background-color: #f8fdee;
+}
+
+.shopping-title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.shopping-desc {
+    font-size: 0.95rem;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.organic-product .aloe-img {
+    width: 60px;
+    height: auto;
+}
+
+.organic-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.2;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.circle-images .people-image {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.shop-now .shop-arrow {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-now .shop-arrow img {
+    width: 18px;
+    height: auto;
+    filter: invert(1); 
+}
+
+.shop-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+#Review {
+    
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.testimonial-badge {
+    background-color: #f8fdee;
+    color: #8AC027;
+    border-radius: 5px;
+}
+
+
+.left-arrow, .right-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.left-arrow img, .right-arrow img {
+    width: 40px;
+    height: 40px;
+}
+
+
+#testimonialCarousel {
+    gap:40 px;
+    scroll-behavior: smooth;
+    display : flex;
+    overflow: hidden;
+    padding: 10px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    flex: 0 0 auto;
+    background-color: #eef5fc;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: center;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.stars {
+    color: #8AC027;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.explore-btn {
+    background-color: #8AC027;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #6f9720;
+}
+.section-bg {
+  background-color: #8BC34A; 
+  color: white;
+  padding: 50px 0;
+}
+.text-section {
+  text-align: left;
+  line-height: 1.2;
+  margin-left: -30px;
+}
+.image-container img {
+  border-radius: 50%;
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+}
+.video-container {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+.video-container img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 30px /50px; 
+  object-fit: cover;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: -5%; 
+  transform: translate(-50% ,-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border:2px solid #8BC34A ;
+}
+.play-button::after {
+  content: "▶";
+  font-size: 30px;
+  color: #8BC34A;
+
+}
+@media (max-width: 767.98px) {
+  .text-section {
+      margin-left: 0;
+      text-align: center;
+  }
+}
+
+
